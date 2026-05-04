@@ -1,0 +1,18 @@
+{
+  "name": "Meraki — Let Your Style Speak",
+  "short_name": "Meraki",
+  "description": "Boutique CRM — WhatsApp broadcasts, customer management, sales tracking for clothing boutique",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='40' fill='%238B5CF6'/><text x='96' y='140' font-size='120' text-anchor='middle' fill='white'>👗</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["business", "shopping", "lifestyle"]
+}
