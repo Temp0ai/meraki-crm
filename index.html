@@ -531,6 +531,11 @@
     <div id="toast" class="toast hidden"></div>
   </div>
 
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/meraki-crm/sw.js').catch(() => {});
+    }
+  </script>
   <script src="app.js"></script>
 </body>
 </html>

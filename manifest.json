@@ -2,35 +2,38 @@
   "name": "Meraki — Let Your Style Speak",
   "short_name": "Meraki",
   "description": "AI-Powered WhatsApp CRM for Clothing Boutiques — customer management, personalized broadcasts, sales tracking",
-  "start_url": "/index.html",
+  "start_url": "/meraki-crm/index.html",
   "display": "standalone",
   "background_color": "#FFFFFF",
   "theme_color": "#8B5CF6",
   "orientation": "portrait",
-  "scope": "/",
+  "scope": "/meraki-crm/",
   "lang": "en",
+  "id": "/meraki-crm/",
   "categories": ["business", "shopping", "lifestyle"],
+  "dir": "ltr",
+  "display_override": ["window-controls-overlay", "standalone"],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "https://temp0ai.github.io/meraki-crm/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "https://temp0ai.github.io/meraki-crm/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-192.png",
+      "src": "https://temp0ai.github.io/meraki-crm/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/icon-512.png",
+      "src": "https://temp0ai.github.io/meraki-crm/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
@@ -39,11 +42,19 @@
   "shortcuts": [
     {
       "name": "Customers",
-      "url": "/index.html#customers"
+      "short_name": "Customers",
+      "url": "/meraki-crm/index.html#customers",
+      "icons": [{"src": "https://temp0ai.github.io/meraki-crm/icon-192.png", "sizes": "192x192"}]
     },
     {
       "name": "Broadcasts",
-      "url": "/index.html#messages"
+      "short_name": "Broadcasts",
+      "url": "/meraki-crm/index.html#messages",
+      "icons": [{"src": "https://temp0ai.github.io/meraki-crm/icon-192.png", "sizes": "192x192"}]
     }
-  ]
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "screenshots": [],
+  "iarc_rating_id": ""
 }
