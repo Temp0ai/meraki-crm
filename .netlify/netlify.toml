@@ -9,7 +9,6 @@ redirects = []
 [build]
 publish = "/root/.openclaw/workspace/customer-app"
 publishOrigin = "default"
-base = "/root/.openclaw/workspace/customer-app"
 
 [build.environment]
 
