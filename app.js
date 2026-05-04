@@ -17,7 +17,7 @@ const defaultData = {
     { id:'tpl_followup', name:'Follow Up', category:'followup', body:'Hi {name}! 💜\n\nThank you for visiting Meraki! We hope you loved your purchase! 👗\n\nWe\'d love to see how you styled it! 📸\n\nLet your style speak! ✨' },
     { id:'tpl_missyou', name:'We Miss You', category:'followup', body:'💕 Hi {name},\n\nWe miss you at Meraki! Come back & enjoy 15% off! 🎁\n\nWe have beautiful new arrivals waiting!\n\n📍 See you soon!\n\nLet your style speak! 👗' },
   ],
-  settings: { shopName:'Meraki', slogan:'Let Your Style Speak', geminiApiKey:'' }
+  settings: { shopName:'Meraki', slogan:'Let Your Style Speak', geminiApiKey:'AIzaSyDVLPtWwu3uIs5IugBmOJtQ-oI840rHWHY' }
 };
 
 let data;
